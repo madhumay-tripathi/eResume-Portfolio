@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- favi icon -->
+    <link rel="icon" type="image/svg" href="./images/" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      />
+
+    <!-- external file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-style.css" />
+
+    <title>Digital Resume</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75"  onload="typeText()">
+    <!-- navbar section -->
+    <div class="header-wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-lg ">
+          <a class="navbar-brand" href="#home">
+            <img src="images/logo_red.png" class="img-fluid img-red-logo ">
+            <img src="images/logo_aqua.png" class="img-fluid img-aqua-logo d-none">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+            <ul class="navbar-nav menu-navbar-nav text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">
+                  <i class="fas fa-home"></i> Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  <i class="fas fa-user icons"></i> About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">
+                  <i class="fas fa-cogs"></i>Expertise
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">
+                  <i class="fas fa-briefcase"></i> Experience
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#certificates">
+                  <i class="fa-solid fa-award"></i> Certificates
+                </a>
+              </li>
+
+
+              <li class="nav-item mt-2 mt-lg-0">
+                <a class="main-btn hire-me-btn" href="#contact">Contact Us</a>
+              </li>
+
+               
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- banner section -->
+    <section id="home" class="banner-wrapper">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-sm-12 text-center text-md-start ">
+              <h6>Welcome to My Portfolio!</h6>        
+            <h1>Hi,
+              <span id="blink" class="text-start">I'm Madhumay Tripathi</span> 
+              <br />
+              <span>Manager–QA & RA and PRRC</span>
+              <br />
+              Lucknow <p class="d-inline-block" > &#8212; City of Nawabs</p>
+            </h1>
+            <div class="welcome" style="max-width: 850px;">
+              <p>Hello, I'm Madhumay Tripathi, a seasoned professional certified as an ISO 9001:2015 IRCA Approved Lead Auditor. My academic background includes a Science degree complemented by a Post Graduate Diploma in Plastic Processing & Testing from CIPET (Lucknow). With over a decade of experience in Medical Device Quality Management Systems, I have honed my skills as an effective communicator, adept at interpreting information accurately and conveying it precisely. I specialize in reviewing and analyzing data, implementing process improvements, and measuring effectiveness. My approach is goal-oriented, and I excel in coordinating efforts to achieve important objectives.
+              </p>
+            </div>
+
+
+
+            <div class="mt-4">
+              <a href="https://drive.google.com/file/d/1Q07YL9W6FB0Mo102h0aRBZXqdZSuux41/view?usp=drive_link" target="_self" class="main-btn">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="about-wrapper blur-prop">
+      <div class="container-lg">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-4 col-md-4 mb-3 mb-lg-0 about_pic" style="background-color: aliceblue;">
+            <!-- about image -->
+          </div>
+          <div class="col-lg-8 col-md-8 ps-lg-5 text-center text-lg-start">
+            <div class="row">
+              <div class="col-lg-0 col-md-0 col-sm-4 col-4 mb-3 mb-lg-0 about_inner_pic " style="background-color: aliceblue;">
+                    <!-- about inner image -->
+              </div>
+              <div class="col col-lg-12 col-md-12 col-sm-8  order-2 my-3 mb-lg-0">
+                <span class="subtitle">Know about me!</span>
+                <h2>About me</h2>
+                <p style="text-align: justify;">
+                 
+                  A Regulatory Professional in the Medical Device Industry, certified as a Lead Auditor for ISO 9001:2015 by CQI IRCA, with a background in Science and a Post Graduate Diploma in Plastic Processing & Testing from CIPET (Lucknow), accompanied by 10 years of extensive experience in managing Quality Management Systems for medical devices. Proficient in clear communication and precise interpretation of information, adept at reviewing and analysing data, implementing process improvements, and assessing effectiveness. Driven by goals, skilled in coordinating efforts and maintaining focus on achieving significant objectives.
+                  
+                </p>
+              </div>
+            </div>
+            <div class="pt-3">
+              <ul
+                class="nav nav-pills justify-content-center justify-content-between mb-3"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active"
+                    id="pills-why-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-why"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-why"
+                    aria-selected="true"
+                  >
+                  Why medical devices?
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-current-role-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-current-role"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-current-role"
+                    aria-selected="false"
+                  >
+                  Current Role
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-journey-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-journey"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-journey"
+                    aria-selected="false"
+                  >
+                  
+                  Journey into medical devices
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-education-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-education"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-education"
+                    aria-selected="false"
+                  >
+                    Education
+                  </button>
+                </li>
+              </ul>
+
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-why"
+                  role="tabpanel"
+                  aria-labelledby="pills-why-tab"
+                >
+                <h3>
+                  <ol id="skills-list">
+                    <li><span>Impactful Work:</span> Working in the medical device sector allows you to directly contribute to improving healthcare outcomes and patient quality of life. Your efforts may lead to the development of innovative devices that save lives, enhance patient care, and alleviate suffering.</li>
+                    <li><span>Innovation Opportunities:</span> The medical device industry is continuously evolving with advancements in technology, materials science, and engineering. This creates opportunities for professionals to innovate and develop ground breaking medical devices that address unmet clinical needs.</li> 
+                    <li><span>Interdisciplinary Collaboration:</span> Medical device development involves collaboration among diverse professionals, including engineers, scientists, physicians, regulatory experts, and marketers. Working in this sector exposes you to cross-disciplinary teamwork, fostering personal and professional growth.</li>
+                    <li><span>Global Impact:</span> Medical devices have a global reach, impacting healthcare systems worldwide. By working in this sector, you have the opportunity to contribute to global health initiatives and make a difference on a global scale.</li>
+                    <li><span>Regulatory compliance & Quality Standards:</span> Working in the medical device industry requires adherence to stringent regulatory standards and quality assurance practices. This emphasis on safety and efficacy instils a sense of responsibility and professionalism in practitioners, ensuring that products meet the highest standards of quality and compliance.</li>
+                    <li><span>Continuous Learning:</span> The dynamic nature of the medical device sector necessitates continuous learning and professional development. Whether it's staying updated on regulatory changes, learning about new technologies, or enhancing your skills, there are ample opportunities for intellectual growth and advancement.</li>
+                    <li><span>Ethical Fulfilment:</span> Contributing to the development and distribution of medical devices aligns with ethical principles of improving human health and well-being. Knowing that your work has a positive impact on society can provide a deep sense of fulfilment and purpose in your professional endeavours.</li>
+                    <li><span>Reward Patient Interactions:</span> While not as direct as healthcare providers, professionals in the medical device sector still have the opportunity to interact with patients indirectly. Seeing the impact of your work on patients' lives can be incredibly fulfilling and motivating.</li> 
+                  </ol>	
+                  <button id="show-more-btn" class="btn btn-primary mt-3">Read More</button>
+
+                </h3>
+              </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-journey"
+                  role="tabpanel"
+                  aria-labelledby="pills-journey-tab"
+                >
+                  <h3>
+                    Dummy text dolor sit amet, consectetur adipisicing elit. Corporis, adipisci doloremque! Corporis nam vero, cumque nulla suscipit blanditiis pariatur debitis delectus, vitae est beatae fugiat repudiandae ad laudantium accusantium dolorem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis mollitia fugiat corrupti aliquam consectetur. Est vero quaerat duc
+                  </h3>
+                </div>
+
+              <div
+              class="tab-pane fade"
+              id="pills-education"
+              role="tabpanel"
+              aria-labelledby="pills-education-tab"
+            >
+
+              <ul class="text-start ps-0">
+                <li>
+                  <a href="#"
+                    >Post Graduate Diploma in Plastic Processing & Testing CIPET<span
+                      >-Lucknow. 
+                    </span></a
+                  >(2012-2014)
+                </li>
+                
+                <li>
+                  <a href="#"> Bachelor of Science.<span>-Christian Degree College, Lucknow</span></a
+                  > (2006-2009).
+                </li>
+              </ul>
+            </div>
+                <div
+                class="tab-pane fade"
+                id="pills-current-role"
+                role="tabpanel"
+                aria-labelledby="pills-current-role-tab"
+              >
+                <ul class="text-start ps-0">
+                  <li>
+                    <a href="#" title="Download" target="_blank">Working as Manager–QA & RA and PRRC <span > - La-med Healthcare Pvt. Ltd.</span></a> Since Feb-2022
+                  </li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section id="skills" class="skills-wrapper blur-propr">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="subtitle">Areas of Expertise</span>
+            <h2>My Expertise</h2>
+            <p class="text-justify">
+              Explore my areas of expertise in EU MDR and related domains below:
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <div class="card-img text-center">
+                  <img src="./images/Quality Management System.jpg" alt="Quality Management System" class="img-fluid m-2"/>
+                </div>
+                <h3 class="mt-2">Quality Management System</h3>
+                <p>Requirements for establishing Quality Management System in accordance with ISO 13485:2016.</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <div class="card-img text-center">
+                  <img src="./images/Regulations (EU) MDR.jpg" alt="Regulations (EU) MDR" class="img-fluid m-2"/>
+                </div>
+                <h3 class="mt-2">Regulations (EU) MDR</h3>
+                <p>Requirements of Regulations (EU) MDR 2017/745, 21CFR PART 820 & Indian MDR 2017.</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <div class="card-img text-center">
+                  <img src="./images/Biological Evaluation of Medical Devices.jpg" alt="Biological Evaluation of Medical Devices" class="img-fluid m-2"/>
+                </div>
+                <h3 class="mt-2">Biological Evaluation</h3>
+                <p>Requirements for biological evaluation of Medical Devices established in ISO 10993-1:2018.</p>
+              </div>
+            </div>         
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <div class="card-img text-center">
+                  <img src="./images/Work Environment.jpg" alt="Work Environment for Manufacturing of Medical Devices" class="img-fluid m-2"/>
+                </div>
+                <h3 class="mt-2">Work Environment</h3>
+                <p>Various requirements about the work environment for manufacturing of medical devices established in IMDR 2017, EU GMP Annex –I and ISO 14644-1: 2015.</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <div class="card-img text-center">
+                  <img src="./images/Sterilization_Process.jpg" alt="Validation & Routine Control of EO-Sterilization Process" class="img-fluid m-2"/>
+                </div>
+                <h3 class="mt-2">Sterilization Process</h3>
+                <p>Requirement for Validation & Routine control of EO-Sterilization Process in medical devices in accordance with ISO 11135:2014.</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <div class="card-img text-center">
+                  <img src="./images/Sterile Barrier System.png" alt="Validation Requirements of Sterile Barrier System" class="img-fluid m-2"/>
+                </div>
+                <h3 class="mt-2">Sterile Barrier System</h3>
+                <p>Validation Requirements of Sterile Barrier System in accordance with the requirements of ISO 11607-1 & 2:2019.</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <div class="card-img text-center">
+                  <img src="./images/Risk_Management.jpg" alt="Applications of Risk Management" class="img-fluid m-2"/>
+                </div>
+                <h3 class="mt-2">Risk Management</h3>
+                <p>Applications of Risk Management in accordance with the requirements of EN ISO 14971:2019/A11:2021.</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <div class="card-img text-center">
+                  <img src="./images/Clinical_Evaluation.jpg" alt="Requirements of Clinical Evaluation" class="img-fluid m-2"/>
+                </div>
+                <h3 class="mt-2">Clinical Evaluation</h3>
+                <p>Requirements of Clinical Evaluation as per Regulation (EU) 2017/745 (MDR).</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <div class="card-img text-center">
+                  <img src="./images/Post Market Surveillance.jpg" alt="Establishing a Post Market Surveillance System" class="img-fluid m-2"/>
+                </div>
+                <h3 class="mt-2">Post Market Surveillance</h3>
+                <p>Requirement for establishing a Post Market Surveillance System to fulfill obligations detailed in Article 10 (10), Article 83, 84 and Annex III of Regulation (EU) 2017/745.</p>
+              </div>
+            </div>            
+          </div>
+      </div>
+    </section>
+
+
+<!-- portfolio section -->
+<section id="portfolio" class="portfolio-wrapper blur-propr">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-sm-12 text-center mb-4">
+        <span class="subtitle">Professional Experience</span>
+        <h2>Work Experience</h2>
+        <p>
+          Explore my professional journey and key responsibilities below:
+        </p>
+      </div>
+    </div>
+    <div class="row">
+
+      <!-- Manager - QA & RA -->
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3>Currently working as Manager – QA & RA and PRRC</h3>
+            <p>La-med Healthcare Pvt. Ltd, Since Feb-2022</p>
+            <ul>
+              <li class="mt-3">Responsible for overseeing the entire of Quality Management System and 
+                ensure its compliance with requirements outlined in Annex IX of 
+                Regulation (EU) 2017/745 and Fifth Schedule of Indian Medical Device 
+                Rule 2017,</li>
+              <li class="mt-3">Responsible for the maintenance and continuous updation of technical 
+                documentation to ensure alignment with the emerging requirements of 
+                Indian and European medical device regulations, including any necessary 
+                amendments. </li>
+              <li class="mt-2">Responsible for continuous updation of EU declaration of conformity in 
+                strict adherence to the specifications delineated in Article 19 and Annex 
+                IV of Regulation (EU) 2017/745,</li>
+              <li class="mt-2">Responsible for investigating complaints and ensuring timely submission 
+                of responses to both customers and regulatory bodies, particularly if the 
+                complaint is received from the Ministry of Health,</li>
+              <li class="mt-2">Responsible for continuous updation and implementation of product 
+                inspection Plans/Procedure to ensure its compliance with latest version 
+                of relevant standards. Additionally, responsible for verifying batch 
+                release records before product dispatch to uphold compliance.</li>
+              <li class="mt-2">Responsible for establishing a Post Market Surveillance System to fulfil 
+                obligations detailed in Article 10 (10), Article 83, 84 and Annex III of 
+                Regulation (EU) 2017/745,</li>
+              <li class="mt-2">Responsible for preparation of Periodic Safety Report in accordance with 
+                requirements outlined in Article 86 of Regulation (EU) 2017/745,</li>
+              <li class="mt-2">Responsible for ensuring adherence of Risk Management Process in 
+                accordance with requirements outlined in Section 3 to Section 8 of Annex 
+                I of Regulation (EU) 2017/745 and EN ISO 14971: 2019/A11:2021,  </li>
+              <li class="mt-2">Responsible for ensuring adherence of Clinical Evaluation Process in 
+                accordance with requirements outlined in Article 61 & Annex XIV Part A 
+                of Annex I of Regulation (EU) 2017/745,</li>
+              <li class="mt-2">Responsible for continuous updation of procedures and conduct analysis 
+                on reports concerning serious incidents, field safety corrective actions 
+                (FSCA), vigilance analysis, and trend reporting.</li>
+              <!-- Add more responsibilities -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+       <!-- Manager - QA & RA -->
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3>Manager – QA & RA</h3>
+            <p>Medorah Meditek Pvt. Ltd, Gurgaon (Mar 2021 - Feb 2022)</p>
+            <ul>
+              <li class="mt-2">Maintain the policy lines within the context of the entire quality 
+                system and ensure that the entire company adheres to the policy 
+                with the aim of being capable of providing optimal quality assurance.</li> 
+              <li class="mt-2">Establish, manage and maintain compliance with FDA notified 
+                bodies, including establishment registration, new product 
+                submissions and CAPA system.</li>
+              <li class="mt-2">Responsible for the Document Control process and the efficient 
+                control of all documentation required by regulatory agencies.</li>
+              <li class="mt-2">Identify compliance issues that require follow-up and conduct 
+                internal investigation of compliance issues with the aim of 
+                continuously looking for process improvements and ruling out non
+                compliance issues.</li> 
+              <li class="mt-2">Manage the Complaint Handling process and Medical Device 
+                Reporting activities.</li>  
+              <li class="mt-2">Administer and manage supplier qualification activities and monitor 
+                suppliers &apos; performance.</li>  
+              <li class="mt-2">Responsible for scheduling & review of records of the validation 
+                activity including the Process, Packaging & work Environment.</li> 
+              <li class="mt-2">Responsible for Post Market Regulatory compliance including but 
+                not limited to Investigation of Adverse Events Reported by 
+                Customer, Root Cause Analysis, evaluation of Risk & communication 
+                with regulatory authorities (CDSCO & EU).</li> 
+              <li class="mt-2">Responsible for timely completion & submission of Manufacturer’s 
+                Incident Report (MIR) & Trend Reporting.</li> 
+              <li class="mt-2">Responsible for preparation & updation of Technical Documents 
+                such as Risk Management Dossier, Clinical Evaluation Report & PMS 
+                Report in accordance with the guidelines.</li> 
+              <!-- Add more responsibilities -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Assistant Manager - Quality Assurance -->
+      <!-- <div class="col-lg-6 mb-4 row"> -->
+          <div class="col-lg-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h3>Assistant Manager – Quality Assurance</h3>
+                <p>Harsoria Healthcare Pvt. Ltd. Gurgaon (Feb 2020 - Mar 2021)</p>
+                <ul>
+                  <li class="mt-2">Responsible for scheduling & review of records of the validation 
+                    activity including the Process, Packaging & work Environment. </li>
+                  <li class="mt-2">Responsible for Post Market Regulatory compliance including but 
+                    not limited to Investigation of Adverse Events Reported by 
+                    Customer, Root Cause Analysis, evaluation of Risk & communication 
+                    with regulatory authorities (CDSCO & EU).</li>
+                  <li class="mt-2">Responsible for timely completion & submission of Manufacturer’s 
+                      Incident Report (MIR) & Trend Reporting. </li>
+                  <li class="mt-2"> Responsible for preparation & updation of Technical Documents 
+                    such as RMD, CER & PMS Report in accordance with the guidelines.</li> 
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        <!-- Executive - Quality Assurance -->     
+        <div class="col-lg-12 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h3>Executive – Quality Assurance</h3>
+              <p>Romsons Juniors India, Agra (Jul 2016 - Feb 2020)</p>
+              <ul>
+                <li class="mt-2">Responsible for control of documents including but not limited to 
+                  issuance, retention, retrieval of records & prevention of unintended 
+                  use of obsolete documents. Supplier selection & communication for 
+                  Non-conforming product. </li>
+                <li class="mt-2">Responsible for preparation of Technical documentation for CE & 
+                  Drug License. Scheduling & Retention of Internal Audit Evidences. 
+                  Investigation of customer complaints & communication with 
+                  competent authorities.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      <!-- Production Supervisor -->
+         <div class="col-lg-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h3>Production Supervisor</h3>
+                <p>Romsons Juniors India, Agra (Apr 2014 - Jul 2016)</p>
+                <ul>
+                  <li class="mt-2">Schedule the workflow, material requirement, resources etc. for the 
+                    specific process according to established manufacturing sequences 
+                    and lead times. </li>
+                  <li class="mt-2">Attend daily production meetings to assess the current production 
+                    scenario and for analysis of breakdowns during production. </li>
+                  <!-- Add more responsibilities -->
+                </ul>
+              </div>
+            </div>
+          </div>
+
+         <!-- Trainee Engineer -->
+          <div class="col-lg-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h3>Trainee Engineer</h3>
+                <p>Prince Pipes & Fittings Pvt. Ltd, Haridwar (Jul 2013 - Jan 2014)</p>
+                <ul>
+                  <li class="mt-2">for Inspection of FPA (First Piece 
+                  Approval) & Testing of products. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- certificate section -->
+<section id="certificates" class="certificates-wrapper blur-propr">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-sm-12 text-center mb-4">
+        <span class="subtitle">Certificates</span>
+        <h2>Certifications and Training</h2>
+        <p>Explore my certifications and training below:</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3><a href="https://drive.google.com/file/d/1obucCjTKgtPrScVW83TNQTJtlgExxAOV/view?usp=drive_link" target="_blank" class="project-link" title="Certificate">CQI IRCA Certified PR 328 ISO 9001:2015 Lead Auditor</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3><a href="https://drive.google.com/file/d/1NNInSWkAYtxZIleieVGBQi2jRfpELKmC/view?usp=drive_link" target="_blank" class="project-link" title="Certificate">Implementation Training on Medical Devices-Quality Management System as per ISO 13485:2016</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3><a href="https://drive.google.com/file/d/1YxUQc_HCdqpXIWCnb1hr-5cvM6YZiKMF/view?usp=drive_link" target="_blank" class="project-link" title="Certificate">European Medical Device Regulation (EU MDR 2017/745) Implementation Training</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3><a href="https://drive.google.com/file/d/11qLc2y8tZfZnZiqV5ptiTme0bor5aKtS/view?usp=drive_link" target="_blank" class="project-link" title="Certificate link">Biocompatibility and Toxicological Risk Assessment of Medical Devices – The Notified Body Perspective</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3><a href="https://drive.google.com/file/d/1yxbHbwBZ6KFbzghu7_IwDn5Vc8CC3Veq/view?usp=drive_link" target="_blank" class="project-link" title="Certificate link">Attended workshop on Clinical Evaluation, Clinical Performance and Safety of Medical Devices</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3><a href="https://drive.google.com/file/d/1NazV9lRcDylBVAalW7O69_EzTPSo8nmU/view?usp=drive_link" target="_blank" class="project-link" title="Certificate link">Attended workshop on Authoring Clinical Study Protocols</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3><a href="https://drive.google.com/file/d/1obucCjTKgtPrScVW83TNQTJtlgExxAOV/view?usp=drive_link" target="_blank" title="Certificate link">Continuous Quality Improvement: Tools & Techniques (Healthcare)</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3><a href="" target="_blank" class="project-link" title="Certificate">Regulatory Requirements for Medical Devices including in Vitro Diagnostics in India (Version 2.0)</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3><a href="" target="_blank" class="project-link" title="Certificate link">Current regulatory requirements for conducting clinical Trials in India for Investigational new drug/new drug (Version 2.0)</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3><a href="https://drive.google.com/file/d/1CQyV5EZMOzIRdEYvtTx4MNUu-PVLBMfJ/view?usp=drive_link" target="_blank" class="project-link" title="Certificate">Attended webinar Six-Sigma for working professional</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3><a href="https://drive.google.com/file/d/11sjvqXa2XvV9Q9derqnfzpNuOz7SP7ji/view?usp=drive_link" target="_blank" title="certificate">Attended Online Training Program on ISO 13485:2016, QMS for EUMDR, ISO 14971:2019 and Clinical Investigation & Evaluation as per Indian MDR 2017</a></h3>
+            <div id="certificateViewer1" class="certificate-viewer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- contact section -->
+    <section id="contact" class="contact-wrapper blur-prop">
+      <div class="container-lg md-container-fluid">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-8 col-md-8 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+            <div class="row">
+              <div class="col-sm-12 text-center mb-4">
+                <span class="subtitle">Get in Touch</span>
+                <h2>Contact Us</h2>
+                <p>
+                  Feel free to reach out to me via the form below. I'll get back to you as soon as possible.
+                </p>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col col-lg-12 col-md-12 col-sm-8">
+                <div class="row call_details mb-3">
+                  <label class="col-lg-4 col-md-4  mb-1" >Address</label>
+                  <div class=" col-lg-8 col-md-8 mb-3 mb-lg-2 text-md-start">
+                    <a href="https://www.google.com/maps?q=28.404501,77.321858">House. No. 197, Sector 55, 
+                      Faridabad, Haryana (India), Pin. 
+                      Code: 121004</a>
+                  </div>
+                  <label class="col-lg-4 col-md-4  mb-1" >Call us directly</label>
+                  <div class=" col-lg-8 col-md-8 mb-3 mb-lg-2 text-md-start">
+                    <a href="javascript:void(0)">+91 8400660433, +91 9711566858</a>
+                  </div>
+                  <label class="col-lg-4 col-md-4 mb-1">Contact Email:</label>
+                  <div class="col-lg-8 col-md-8 col  mb-3 mb-lg-2 text-md-start">
+                    <a href="mailto:madhumaytripathi@gmail.com">madhumaytripathi@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-0 col-md-0 col-sm-4 col-4 contact_inner_pic">
+                <!-- innner contact image -->
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-4 col-md-4 order-1 mb-4 order-lg-2 order-md-2 mb-lg-0 contact_pic">
+            <!-- contact image -->
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- footer section -->
+      <section class="footer-wrapper mt-3 mt-md-0 ">
+        <div class="container-lg">
+          <div class="row align-items-center">
+            <div class="col-lg-4 col-md-6 text-center text-md-start">
+              <div class="footer-logo mb-3 mb-md-0">
+                <a href="#home">
+                  <img src="./images/logo_aqua.png" class="img-fluid text-center footer-logo" alt="logo">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <ul class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                <li>
+                  <a href="#" ><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                <p class="mb-0"> Copyright &copy; 2024 <a href="#">Madhumay Tripathi</a>. All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <script src="js/main.js"></script>
+
+
+
+    <!-- bootstarp js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+

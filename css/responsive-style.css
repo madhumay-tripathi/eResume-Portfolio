@@ -1,0 +1,194 @@
+   
+    
+
+ /* Small devices ( phones, 576px and up) */
+ @media (max-width: 576px) {
+    section{
+        padding: 30px 0;
+    }
+    .main-btn{
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 6px 17px;
+    }
+    h1{
+        font-size: 35px;
+        line-height: 40px;
+        padding: 5px;
+    }
+    h2{
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    h3{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .welcome h3{
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 1px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: .5px;
+        font-weight: 300;
+    }
+    h1 #blink{
+        font-size: 17px;
+    }
+    .pics{
+        width: 100vw;
+        max-height: 100vw;
+    }
+    .nav-link{
+        padding: 5px;
+        font-size: 14px;
+    }
+    .banner-wrapper{
+        padding: 100px 0 100px 0;
+    }
+    .banner-wrapper h6{
+        font-size: 13px;
+    }
+
+    /* about section */
+    .subtitle{
+        font-size: 13px;
+        font-weight: 300;
+        margin: 0;
+    }
+    .nav-pills{
+        border: 0;
+    }
+    .about-wrapper ul li .nav-link{
+        font-size: 13px;
+        margin: 5px;
+        padding: 5px 10px;
+        }
+    /* propgress bar */
+    .about-wrapper .single-progress h6{
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-bottom: 0px;
+    }
+    .about-wrapper .single-progress .label{
+        font-size: 12px;
+    }
+    .about-wrapper .tab-pane li a{
+        font-size: 13px;
+        font-weight: 300;
+        display: block;
+        color: var(--text-aqua);
+    }
+    .about-wrapper .tab-pane li{
+        font-size: 12px;
+        margin-bottom: 11px;  
+    } 
+
+    /* contact section */
+    .contact-wrapper .call_details label{
+        font-size: 15px;
+    }
+    .contact-wrapper .form-control,
+    .contact-wrapper textarea{
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .contact-wrapper .call_details a{
+        font-weight: 300;
+        font-size: 13px;
+    }
+    /* footer section */
+    .footer-wrapper{
+        background-color: var(--bg-dark-blue);
+        padding: 2px 0;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .about-wrapper .subtitle,
+    .about-wrapper p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .about-wrapper h2{
+        font-size: 40px;
+    }
+    .about-wrapper ul li .nav-link{
+        font-size: 13px;
+    }
+    .about-wrapper .tab-pane h3{
+        font-size: 14px;
+    }
+  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767px ) {
+    .about-wrapper .subtitle,p{
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .about-wrapper h2{
+        font-size: 47px;
+    }
+    .about-wrapper ul li .nav-link{
+        font-size: 15px;
+    }
+    .about-wrapper .tab-pane h3{
+        font-size: 16px;
+    }
+   
+    .about-wrapper .about_pic,.contact-wrapper .contact_pic{
+        display: none;
+    }
+    .about-wrapper .about_inner_pic{
+        display: block;
+        background-image: url(../images/about_img.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .contact-wrapper .contact_inner_pic{
+        display: block;
+        background-image: url(../images/contact_img.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 10px;
+
+    }
+  }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media (max-width: 510px) {
+        .about-wrapper .about_inner_pic,.contact-wrapper .contact_inner_pic{
+            display: none;
+        }
+        .about-wrapper .about_pic{
+            display: block;
+            background-position: center -60px ;           
+        }
+        .contact-wrapper .contact_pic{
+            display: block;
+            background-position: center -100px ; 
+        }
+    }
+
+        /* Small devices (landscape phones, 576px and up) */
+        @media (max-width: 380px) {
+
+            .about-wrapper .about_pic{
+                
+                min-height: 400px;
+               
+            }
+            .contact-wrapper .contact_pic{
+                min-height: 400px;
+                background-position: center -80px;
+            }
+        }
